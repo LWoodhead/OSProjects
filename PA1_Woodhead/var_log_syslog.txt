@@ -1,0 +1,10 @@
+user@cu-cs-vm:/home/kernel/linux-hwe-4.15.0$ sudo tail /var/log/syslogFeb  3 13:26:18 cu-cs-vm nm-dispatcher: req:1 'dhcp4-change' [ens33]: start running ordered scripts...
+Feb  3 13:26:59 cu-cs-vm systemd[1]: Starting Cleanup of Temporary Directories...
+Feb  3 13:26:59 cu-cs-vm systemd-tmpfiles[2236]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Feb  3 13:26:59 cu-cs-vm systemd[1]: Started Cleanup of Temporary Directories.
+Feb  3 13:31:51 cu-cs-vm uptimed: moving up to position 13: 0 days, 00:20:09
+Feb  3 13:33:28 cu-cs-vm kernel: [ 1305.995767] before add
+Feb  3 13:33:28 cu-cs-vm kernel: [ 1305.995771] before result
+Feb  3 13:33:28 cu-cs-vm kernel: [ 1305.995772] after result
+Feb  3 13:33:28 cu-cs-vm kernel: [ 1305.995772] Adding 6 and 12
+Feb  3 13:33:28 cu-cs-vm kernel: [ 1305.995773] 6 + 12 = 18
