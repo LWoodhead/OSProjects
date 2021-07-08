@@ -1,0 +1,18 @@
+Luke Woodhead
+luwo7426@colorado.edu
+
+multilookup.c
+
+	Contains all code for requester and resolver functions to be run by pthreads and contains main function to run the entire program, run it with 
+	gcc -pthread util.c multilookup.c then
+	./a.out 1 1 log.txt results.txt inputs.txt
+	where the inputs.txt is a text file containing all input file names, one on each line with the last line being empty white space
+
+
+makefile
+	
+  
+
+multilookup.h
+
+	headerfile for multilookup.c
